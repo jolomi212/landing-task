@@ -1,0 +1,400 @@
+html{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+
+body{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+   
+    
+}
+
+@keyframes move{
+    from {top: -135px; }
+    to { top: -50px;}
+}
+.section-a{
+    color: hsl(192, 100%, 9%);
+    padding-top: 60px;
+    padding-left: 60px;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url("images/bg-hero-desktop.svg");
+    padding-bottom: 60px;
+    /* width: 100vw; */
+   
+}
+.top{
+    height: 80px;
+    margin-bottom: 30px;
+    
+    
+}
+.top button{
+    float: right;
+    margin-right: 90px;
+    background-color: white;
+    height: 50px;
+    border-radius: 25px;    
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 9px;
+    font-family: "Open Sans";
+    font-weight: 700;
+   
+ }
+
+ .top-button:hover{
+    color: hsl(208, 11%, 55%);
+ }
+ button{
+    border: none;
+ }
+ .flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+ .large-text{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 80px;
+ }
+ .text-container{
+    width: 400px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+ }
+ .image-1{
+    width: 45%;
+    height: auto;
+ }
+ .mockup{
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+ }
+ .pink-btn{
+    margin-top: 20px;
+    background-color: hsl(322, 100%, 66%);
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.pink-btn:hover{
+    background-color: hsl(322, 89%, 74%);
+}
+ 
+.section-b{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.card{
+    margin: auto;
+   display: flex;
+   
+   width: 80%;
+   min-width: 750px;
+   
+   
+   height: 450px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px;
+   margin-bottom: 40px;
+   border-radius: 15px;
+   padding-left: 7%;
+   padding-top: 50px;
+   justify-content: space-between;
+   padding-right: 3%;
+   
+}
+
+.card-text{
+    width: 50%;
+    min-width: 270px;
+}
+.card-title{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+.card-body{
+    color: hsl(208, 11%, 55%);
+}
+.card-container{
+    width:35%;
+    height: 400px;
+}
+.card-picture{
+    width: auto;
+    max-width: 500px;
+    height: 400px;
+}
+
+
+.section-c{
+    
+    position: relative;
+    
+}
+.build{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px;
+    width: 700px;
+    margin: auto;
+    height: 200px;
+    z-index: 10;
+    position: absolute;
+    left: calc(50% - 350px);
+    top: -135px;
+    border-radius: 10px;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-iteration-count: 10;
+}
+.footer{
+    
+    min-height: 400px;
+    /* width: 100vw; */
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    
+    padding-top: 150px;
+    margin-top: 225px;
+    padding-left: 150px;
+   
+}
+.build-title{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.build-btn{
+        position:relative; 
+        width: 300px; 
+        margin-top: 10px; 
+        margin-left: 0; 
+        left: 50%; 
+        transform: translateX(-50%);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+    }
+.logo2{
+    height: 40px;
+    
+   
+    
+}
+.logo2 img{
+    height: 40px;
+    
+}
+.footer-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.icon{
+    height: auto;
+    width: 25px;
+    
+    display: inline-block;
+}
+.icon img{
+    width: auto;
+    height: 18px;
+}
+.list{
+    width: fit-content;
+    max-width: 400px;
+    margin-right: 70px;
+    
+}
+.list-line{
+    display: flex;
+}
+.list-text{
+    margin-left: 20px;
+   
+}
+.list p{
+    margin-top: 0px;
+    opacity: 80%;
+}
+.sm i{
+    color: white;
+    width: 25px;
+    height: 23px;
+    border-radius: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    border: 1px solid white;
+    text-align: center;
+}
+.sm a{
+    margin-right: 10px;
+    
+}
+.sm{
+    margin-bottom: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 420px){
+    body{
+        font-size: 14px;
+    }
+    .section-a{
+        background-image: url("images/bg-hero-mobile.svg");
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+    }
+    .top{
+        height: 40px;
+
+    }
+    .top img{
+        height: 20px;
+    }
+    .top button{
+        height: 20px;
+        width: 75px;
+        float: right;
+        margin-right: 0px;
+    }
+    .flex{
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: nowrap;
+        align-items: center;
+        
+        
+    }
+    .text-container{
+        margin-right: 0;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .large-text{
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .pink-btn{
+        height: 35px;
+        width: 200px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .image-1{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .mockup{
+        width: 300px;
+        height: auto;
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        min-width: 300px;
+        height: fit-content;
+    }
+    .card-img{
+        order: 1;
+        width: 80%;
+    }
+    .card-picture{
+        width: 100%;
+        height: auto;
+        margin-right: 0px;
+    }
+    .card-text{
+       
+        order: 2;
+        width: 80%;
+        min-width: 200px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .card-title{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .section-c{
+        
+    }
+    .build{
+        width: 90%;
+        left: 5%;
+        height: 150px;
+        top: -83px;
+    }
+    .build-title{
+        font-size: 15px;
+    }
+    .build-btn{
+        
+        width: 150px; 
+        margin-top: 10px; 
+        
+    }
+    .footer{
+        padding-left: 5%;
+    }
+    .logo2 img{
+        height: 20px;
+        margin-top: 40px;
+    }
+    .footer-container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    }
+    .sm{
+        margin-left: auto;
+        margin-bottom: 30px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .list-line{
+        margin-bottom: 20px;
+    }
+
+    .list p{
+        margin-bottom: 20px;
+    }
+    .list{
+        margin-bottom: 20px;
+        width: 90%;
+    }
+}
