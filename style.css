@@ -25,6 +25,7 @@ body{
     background-color: hsl(193, 100%, 96%);
     background-image: url("images/bg-hero-desktop.svg");
     padding-bottom: 60px;
+    min-width: 880px;
     /* width: 100vw; */
    
 }
@@ -182,6 +183,7 @@ body{
     padding-top: 150px;
     margin-top: 225px;
     padding-left: 150px;
+    min-width: 800px;
    
 }
 .build-title{
@@ -275,6 +277,7 @@ body{
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 30px;
+        min-width: 350px;
     }
     .top{
         height: 40px;
@@ -374,6 +377,7 @@ body{
     }
     .footer{
         padding-left: 5%;
+        min-width: 350px;
     }
     .logo2 img{
         height: 20px;
