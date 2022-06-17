@@ -21,6 +21,7 @@ body{
     color: hsl(192, 100%, 9%);
     padding-top: 60px;
     padding-left: 60px;
+    
     background-color: hsl(193, 100%, 96%);
     background-image: url("images/bg-hero-desktop.svg");
     padding-bottom: 60px;
@@ -55,6 +56,7 @@ body{
  .flex{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     
  }
  .large-text{
@@ -66,18 +68,20 @@ body{
  }
  .text-container{
     width: 400px;
-    margin-right: 15%;
+    
     margin-bottom: 30px;
  }
  .image-1{
     width: 45%;
     
     height: auto;
+    margin-right: 60px;
  }
  .mockup{
     
     width: 100%;
     height: auto;
+   
  }
  .pink-btn{
     margin-top: 20px;
@@ -316,6 +320,7 @@ body{
         width: 90%;
         display: flex;
         justify-content: center;
+        margin-right: 0px;
     }
     .mockup{
         width: 300px;
