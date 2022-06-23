@@ -107,6 +107,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: white;
+    min-width: 910px;
    
 }
 
@@ -181,7 +182,7 @@ body{
 }
 .footer{
     
-    min-height: 400px;
+    min-height: 500px;
     /* width: 100vw; */
     background-color: hsl(192, 100%, 9%);
     color: white;
@@ -191,6 +192,7 @@ body{
     padding-left: 150px;
     min-width: 760px;
     padding-right: 0%;
+    
    
    
 }
@@ -279,7 +281,12 @@ body{
 .sm{
     margin-bottom: 30px;
 }
-
+footer{
+    float: right;
+    margin-right: 50px;
+    font-size: 15px;
+    color: hsl(208, 11%, 55%);
+}
 
 @media only screen and (max-width: 940px){
 .build{
@@ -349,6 +356,10 @@ body{
     .mockup{
         width: 300px;
         height: auto;
+    }
+    .section-b{
+        min-width: 350px;
+        padding-left: 10px;
     }
     .card{
         flex-direction: column;
@@ -427,5 +438,15 @@ body{
     .list{
         margin-bottom: 20px;
         width: 90%;
+    }
+    footer{
+        float: none;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+    footer p{
+        text-align: center;
+        height: fit-content;
     }
 }
